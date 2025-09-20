@@ -1,3 +1,24 @@
+/*
+    styles.css
+
+    This stylesheet provides the core layout and visual styling for a modern, responsive web page.
+    It includes:
+
+    - General Reset: Applies box-sizing and sets up base font and background for the body.
+    - Typography: Styles for headings and anchor elements.
+    - Container: Flexbox-based layout for main content areas.
+    - Images: Ensures images are responsive and have rounded corners.
+    - Buttons: Primary and secondary button styles with hover effects.
+    - Hero Section: Grid and image styling for the main hero area, including split-image effects.
+    - Feature Section: Styles for feature highlights with headings and descriptions.
+    - Guarantee: Visual styling for guarantee messages and icons.
+    - Nutrition Section: Layout and text styles for nutrition information and statistics.
+    - Benefit Sections: Flexbox-based layout for benefit highlights, including reversed layouts.
+    - Footer: Simple, centered footer with background color.
+
+    Customizations and overrides are included for specific elements to ensure visual consistency and
+    enhance user experience.
+*/
 /* General Reset */
 * {
   /* margin: 0!important;
