@@ -1,0 +1,139 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+h1, h2, h3 {
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background: #f97316;
+  color: #fff;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #ea580c;
+}
+.btn.secondary {
+  background: #333;
+}
+.btn.secondary:hover {
+  background: #111;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #fff;
+}
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+  margin: 40px auto;
+  max-width: 900px;
+}
+.hero-image img {
+  border-radius: 50%;
+  border: 6px solid #eee;
+}
+.feature {
+  max-width: 200px;
+}
+.feature h3 {
+  margin-bottom: 6px;
+  color: #222;
+}
+.feature p {
+  font-size: 0.9rem;
+  color: #555;
+}
+.guarantee {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+.guarantee img {
+  display: block;
+  margin: 10px auto 0;
+  max-height: 30px;
+}
+
+/* Nutrition Section */
+.nutrition .text {
+  flex: 1;
+}
+.nutrition .text h2 {
+  margin-bottom: 20px;
+}
+.nutrition p {
+  margin-bottom: 20px;
+  color: #555;
+}
+.stats {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.stats li {
+  margin-bottom: 12px;
+}
+.stats span {
+  font-weight: bold;
+  color: #dc2626;
+  margin-right: 8px;
+}
+
+/* Benefit Sections */
+.benefit .text {
+  flex: 1;
+}
+.benefit .text h2 {
+  margin-bottom: 15px;
+}
+.benefit p {
+  color: #555;
+}
+.benefit .image {
+  flex: 1;
+}
+.benefit.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Footer */
+footer {
+  background: #166534;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}

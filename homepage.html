@@ -1,19 +1,108 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Healthy Dog Foods</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style type="text/tailwindcss">
-      @theme {
-        --color-clifford: #da373d;
-      }
-    </style>
-  </head>
-  <body>
-    <h1 class="text-3xl font-bold underline text-clifford">
-      Hello world!
-    </h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Dog Foods</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>What makes us different makes them stronger</h1>
+    <div class="hero-grid">
+      <div class="feature">
+        <h3>Real Food</h3>
+        <p>Wholesome recipes for dogs with real meat and veggies.</p>
+      </div>
+      <div class="feature">
+        <h3>Premium Ingredient</h3>
+        <p>Elevating pet care with unmatched safety and quality.</p>
+      </div>
+
+      <div class="hero-image">
+        <img src="dog-food-bowl.png" alt="Dog food bowl">
+      </div>
+
+      <div class="feature">
+        <h3>Made Fresh</h3>
+        <p>We prioritize maintaining the integrity of whole foods and nutrition.</p>
+      </div>
+      <div class="feature">
+        <h3>Vet Developed</h3>
+        <p>We raise the bar for dog nutrition, surpassing industry expectations.</p>
+      </div>
+    </div>
+
+    <a href="#shop" class="btn">Get your dog's healthy meal today!</a>
+    <div class="guarantee">
+      <small>30-day money back guarantee</small>
+      <img src="payment-logos.png" alt="Payment Methods">
+    </div>
+  </section>
+
+  <!-- Nutrition Section -->
+  <section class="nutrition container">
+    <div class="text">
+      <h2>Nutrition is the foundation for longer, healthier lives in dogs.</h2>
+      <p>
+        Invest in your dog's future with our scientifically formulated superfood-powered supplements. 
+        Give them the nutrition they deserve and watch them thrive with vitality, energy, 
+        and the joy of a longer, healthier life.
+      </p>
+      <ul class="stats">
+        <li><span>97%</span> Dogs choose our dog food over leading brands.</li>
+        <li><span>84%</span> Superior nutrition with a patented probiotic.</li>
+        <li><span>92%</span> High protein and fat digestibility improves stool quality.</li>
+      </ul>
+      <a href="#shop" class="btn secondary">Give your furry friend the gift of wholesome nutrition</a>
+    </div>
+    <div class="image">
+      <img src="dog-product.png" alt="Dog product and dog">
+    </div>
+  </section>
+
+  <!-- Benefit Section 1 -->
+  <section class="benefit container">
+    <div class="image">
+      <img src="dogs-eating.png" alt="Dogs eating food">
+    </div>
+    <div class="text">
+      <h2>Improve overall gastrointestinal health for better nutrient absorption</h2>
+      <p>
+        Through rigorous scientific studies and consultations with veterinarians, 
+        we have created a breakthrough formula exclusively tailored to combat 
+        the health challenges prevalent in dogs. A staggering 91% of our 
+        customers have reported significant improvements in their dogs' health 
+        after incorporating our product into their diet.
+      </p>
+    </div>
+  </section>
+
+  <!-- Benefit Section 2 -->
+  <section class="benefit container reverse">
+    <div class="text">
+      <h2>Prebiotics nourish the beneficial gut bacteria, supporting digestive health</h2>
+      <p>
+        Our dog food formula contains carefully selected prebiotics that work in 
+        harmony with the gut microbiota, providing the necessary nutrients for 
+        the growth and maintenance of beneficial bacteria, ultimately supporting 
+        digestive health.
+      </p>
+    </div>
+    <div class="image">
+      <img src="dog-kibble.png" alt="Dog kibble">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> Healthy Dog Foods. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Update year dynamically
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
